@@ -6,6 +6,6 @@ public class MetaEntryPoint : MonoBehaviour {
     private MetaUI _metaUI;
 
     private void Start() {
-        _metaUI.Init(100);
+        _metaUI.Init(SaveLoadManager.SaveData.Money);
     }
 }
